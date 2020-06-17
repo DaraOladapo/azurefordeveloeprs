@@ -52,7 +52,7 @@ namespace AzureServicesSample.Web
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            context.Database.Migrate();
+            //context.Database.Migrate();
             app.UseRouting();
 
             app.UseAuthentication();
