@@ -18,7 +18,7 @@ namespace AzureServicesSample.Web.Controllers.API
         public FileController(IConfiguration Configuration)
         {
             //_StorageConnectionString = Configuration["ConnectionStrings:AzureBlobConnectionString"];
-            _StorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=azdevtraining;AccountKey=KdiBae5uKL8sNpsBufuaQncvWdpaoaFltw2RioKg42i4Ml5UGEuk6eKAH4tioRp8HfvwrG6nqpQ0prB4WDAotQ==;EndpointSuffix=core.windows.net";
+            _StorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=azdevtraining;AccountKey=a3fW4H9J64NN9VWPv7vfcbeSawm79YsjpwVTYKsRUshWnd4awN+NfHahdNcrr1PA/HgLPHTCSo+E6qV9vMbLOQ==;EndpointSuffix=core.windows.net";
         }
         [HttpPost("Upload")]
         public async Task<ActionResult<string>> Upload([FromBody]FileUploadModel uploadModel)
